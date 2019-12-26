@@ -13,6 +13,8 @@
 		CF6A729623A879B70061A923 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF6A729523A879B70061A923 /* Assets.xcassets */; };
 		CF6A729923A879B70061A923 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF6A729823A879B70061A923 /* Preview Assets.xcassets */; };
 		CF6A729C23A879B70061A923 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF6A729A23A879B70061A923 /* LaunchScreen.storyboard */; };
+		CF6A72A423A879E40061A923 /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6A72A323A879E40061A923 /* NetworkingManager.swift */; };
+		CF6A72A623A87A600061A923 /* DataListEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6A72A523A87A600061A923 /* DataListEntry.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		CF6A729823A879B70061A923 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CF6A729B23A879B70061A923 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF6A729D23A879B70061A923 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF6A72A323A879E40061A923 /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
+		CF6A72A523A87A600061A923 /* DataListEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataListEntry.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				CF6A729A23A879B70061A923 /* LaunchScreen.storyboard */,
 				CF6A729D23A879B70061A923 /* Info.plist */,
 				CF6A729723A879B70061A923 /* Preview Content */,
+				CF6A72A323A879E40061A923 /* NetworkingManager.swift */,
+				CF6A72A523A87A600061A923 /* DataListEntry.swift */,
 			);
 			path = ParseJUI;
 			sourceTree = "<group>";
@@ -147,7 +153,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF6A729023A879B60061A923 /* AppDelegate.swift in Sources */,
+				CF6A72A423A879E40061A923 /* NetworkingManager.swift in Sources */,
 				CF6A729223A879B60061A923 /* SceneDelegate.swift in Sources */,
+				CF6A72A623A87A600061A923 /* DataListEntry.swift in Sources */,
 				CF6A729423A879B60061A923 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
